@@ -1,0 +1,254 @@
+body {
+	background: #181818;
+    min-width: 320px;
+	font: 1em/100% "Refrigerator Deluxe", "Helvetica", Tahoma, Arial, sans-serif;
+	font-weight: 400;
+	color: #FFF;
+	line-height: 1.2;
+	position: relative;
+	overflow-x: hidden;
+}
+
+*::-webkit-input-placeholder {}
+*:-moz-placeholder {}
+*::-moz-placeholder {}
+*:-ms-input-placeholder {}
+
+::-moz-selection {}
+::selection {}
+
+/* ----------  Багроунд  ---------- */
+
+.mask {
+	background: #181818;
+	width: 100%;
+  	height: 100%;
+  	min-height: 100%;
+  	color: #ffffff;
+  	font-size: 0;
+  	position: fixed;
+  	top: 0;
+  	left: 0;
+  	visibility: visible;
+  	opacity: 1;
+
+  	-webkit-transition: all 1s ease;
+  	   -moz-transition: all 1s ease;
+  	     -o-transition: all 1s ease;
+  			transition: all 1s ease;
+
+  	-webkit-transition-delay: 0.7s;
+  	   -moz-transition-delay: 0.7s;
+  	    -ms-transition-delay: 0.7s;
+  	     -o-transition-delay: 0.7s;
+  			transition-delay: 0.7s;
+}
+
+.mask .inner:after,
+.mask .outer:after {
+  	-webkit-transform: scale(1.2);
+  	   -moz-transform: scale(1.2);
+  	    -ms-transform: scale(1.2);
+  	     -o-transform: scale(1.2);
+  			transform: scale(1.2);
+}
+
+.mask .inner,
+.mask .outer {
+	width: 100%;
+  	height: 100%;
+  	position: absolute;
+  	top: 0;
+  	left: 0;
+
+  	-webkit-transition: all 0.85s cubic-bezier(0.23, 1, 0.32, 1);
+  	   -moz-transition: all 0.85s cubic-bezier(0.23, 1, 0.32, 1);
+  	     -o-transition: all 0.85s cubic-bezier(0.23, 1, 0.32, 1);
+  			transition: all 0.85s cubic-bezier(0.23, 1, 0.32, 1);
+}
+.mask .inner:after,
+.mask .outer:after {
+  	content: '';
+  	background-size: cover;
+  	background-position: center center;
+  	width: 100%;
+  	height: 100%;
+  	min-height: 100%;
+  	display: block;
+  	position: absolute;
+  	top: 0;
+  	left: 0;
+
+  	-webkit-transform: scale(1.01);
+  	   -moz-transform: scale(1.01);
+  	    -ms-transform: scale(1.01);
+  	     -o-transform: scale(1.01);
+  			transform: scale(1.01);
+
+  	-webkit-transition: all 3s cubic-bezier(0.19, 1, 0.22, 1);
+  	   -moz-transition: all 3s cubic-bezier(0.19, 1, 0.22, 1);
+  	     -o-transition: all 3s cubic-bezier(0.19, 1, 0.22, 1);
+  			transition: all 3s cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+.mask .inner:after {
+  	background-image: url("../img/pattern@2.svg");
+}
+.mask .outer:after {
+  	background-image: url("../img/pattern@1.jpg");
+}
+
+.mask:after {
+	content: "";
+	background: url(../img/pattern@3.png) no-repeat center;
+	width: 100%;
+	height: 100%;
+	min-height: 100%;
+	display: block;
+	overflow: hidden;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	z-index: 1;
+}
+
+.sidebar {
+	width: 70px;
+	min-height: 100%;
+	height: 100%;
+	display: block;
+	overflow: hidden;
+	position: fixed;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	z-index: 1;
+}
+
+.logo {
+    width: 25px;
+    height: 25px;
+    display: block;
+    overflow: hidden;
+    margin-left: 44px;
+    margin-top: 44px;
+}
+
+.logo img {
+	width: 100%;
+	height: auto;
+	display: block;
+}
+
+.navbar {
+	display: block;
+
+	position: absolute;
+	top: 0;
+}
+
+.navbar ul > a > li {
+	display: inline-block;
+}
+
+.navbar ul > a {
+	text-transform: uppercase;
+	font-size: 13px;
+	font-weight: 700;
+	color: #fff;
+	letter-spacing: 5px;
+	display: inline-block;
+	margin-top: 220px;
+	margin-left: 8px;
+
+	-webkit-text-shadow: 0px 0px 1px rgba(255, 255, 255, 1);
+	   -moz-text-shadow: 0px 0px 1px rgba(255, 255, 255, 1);
+	     -o-text-shadow: 0px 0px 1px rgba(255, 255, 255, 1);
+			text-shadow: 0px 0px 1px rgba(255, 255, 255, 1);
+
+
+	-webkit-transform: rotate(-90deg);
+	   -moz-transform: rotate(-90deg);
+	    -ms-transform: rotate(-90deg);
+	     -o-transform: rotate(-90deg);
+			transform: rotate(-90deg);
+}
+
+.navbar ul > a > span {
+	content: "";
+	background: #FFF;
+	width: 0;
+	height: 1px;
+	display: block;
+	position: absolute;
+	top: 8px;
+	opacity: 0;
+	visibility: hidden;
+	
+	-webkit-transition: all .1s ease-in-out;
+	-moz-transition: all .1s ease-in-out;
+	-ms-transition: all .1s ease-in-out;
+	-o-transition: all .1s ease-in-out;
+	transition: all .1s ease-in-out;
+}
+
+.navbar ul > a:hover > span {
+	width: 90px;
+	visibility: visible;
+	opacity: 1;
+}
+
+.hero-banner {
+	width: 100%;
+	height: 100%;
+	min-height: 100%;
+	display: table;
+	vertical-align: middle;
+	text-align: center;
+	position: fixed;
+}
+
+.hero-banner hgroup {
+	display: table-cell;
+	vertical-align: middle;
+	text-transform: uppercase;
+
+	-webkit-text-shadow: 0px 0px 1px rgba(255, 255, 255, 1);
+	   -moz-text-shadow: 0px 0px 1px rgba(255, 255, 255, 1);
+	     -o-text-shadow: 0px 0px 1px rgba(255, 255, 255, 1);
+			text-shadow: 0px 0px 1px rgba(255, 255, 255, 1);
+}
+
+.hero-banner hgroup > span {
+	margin-bottom: 30px;
+	font-size: 12px;
+	font-weight: 700;
+	letter-spacing: 5px;
+	display: block;
+}
+
+.hero-banner hgroup > h1 {
+	font-size: 50px;
+    letter-spacing: 58px;
+    margin-left: 50px;
+}
+
+.hero-banner hgroup > small {
+	margin-top: 30px;
+	letter-spacing: 13px;
+	font-weight: 700;
+	display: block;
+}
+
+.hero-banner hgroup > small:after {
+	content: "";
+	background: #FFF;
+	width: 1px;
+	height: 200px;
+	display: block;
+	position: fixed;
+	left: 50%;
+	top: 70%;
+}
