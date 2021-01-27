@@ -1,4 +1,5 @@
-#uMockup - Стартовый шаблон HTML
+#uMockup
+
 
 ![](https://habrastorage.org/webt/gp/el/3f/gpel3fprxfkmfwyzun5he9jojou.jpeg)
 
@@ -7,6 +8,9 @@
 
 
 #Кратеое знакомство
+
+
+------------
 
 #### / browsersync.bat
 > Файлы для запуска проекта на browsersync. 
@@ -35,7 +39,7 @@
 >- public.js - Основные скрипты сайта
 
 #### /libs
->- jquery - Библиотека jQuery
+- jquery - Библиотека jQuery
 - html5shiv - Библиотека для корректной работы HTML5 в IE
 - respond - Библиотека для корректной работы CSS3 в IE
 - modernizr - Библиотека для корректной работы HTML5 (audio,video,canvas и т.д)
