@@ -1,4 +1,4 @@
-##uMockup - Стартовый шаблон HTML
+#uMockup - Стартовый шаблон HTML
 
 ![](https://habrastorage.org/webt/gp/el/3f/gpel3fprxfkmfwyzun5he9jojou.jpeg)
 
@@ -6,7 +6,7 @@
 
 
 
-##Кратеое знакомство
+#Кратеое знакомство
 
 #### / browsersync.bat
 > Файлы для запуска проекта на browsersync. 
