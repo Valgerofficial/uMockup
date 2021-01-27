@@ -1,7 +1,7 @@
 ## uMockup v1.0
 
 
-![](https://habrastorage.org/webt/gp/el/3f/gpel3fprxfkmfwyzun5he9jojou.jpeg)
+![](https://habrastorage.org/webt/qt/ko/3t/qtko3tc6x_pwxyvargnz7hf052c.png)
 
 ------------
 
