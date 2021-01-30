@@ -1,0 +1,24 @@
+/******************************
+
+	*	Основной файл стилей
+	*	/css/main.css
+
+******************************/
+
+body {
+	background: var(--white);
+    min-width: 320px;
+	font: 1em/100% "Montserrat", sans-serif;
+	font-weight: 400;
+	color: var(--black);
+	line-height: 1.2;
+	position: relative;
+	overflow-x: hidden;
+}
+
+.greeting {
+	height: 100vh;
+	display: flex;
+  	align-items: center;
+  	justify-content: center;
+}
