@@ -1,7 +1,6 @@
 # uMockup
 
 
----
 
 ![](https://habrastorage.org/webt/pe/hi/yh/pehiyhuzpvbpmvwvi0lzoyirrr4.png)
 
