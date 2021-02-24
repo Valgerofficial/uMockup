@@ -146,5 +146,5 @@ start browser-sync start --proxy "umockup.server" --files "php/*.php,css/*.css,j
 
 #### Спасибо за внимание! Я надеюсь мой фреймворк поможет вам в реализации ваших идей в жизнь. Вы можете сказать мне спасибо!
 
-
-[ВКонтакте](https://vk.com/valgeroff)  [Инстаграм](https://instagram.com/valgerofficial)  [Беханс](https://www.behance.net/valgerofficial)
+			 🔥🔥🔥
+❤️ [ВКонтакте](https://vk.com/valgeroff)  ❤️ [Инстаграм](https://instagram.com/valgerofficial)  ❤️ [Беханс](https://www.behance.net/valgerofficial)
