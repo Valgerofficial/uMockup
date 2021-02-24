@@ -2,7 +2,7 @@
 
 
 
-![](https://habrastorage.org/webt/pe/hi/yh/pehiyhuzpvbpmvwvi0lzoyirrr4.png)
+![](https://i.ibb.co/YQnZkfs/4x.jpg)
 
 ---
 
