@@ -1,0 +1,24 @@
+/******************************
+
+	*	Переменные и компоненты
+	*	/css/apps.css
+
+******************************/
+:root {
+	--black: #000000;
+	--white: #FFFFFF;
+}
+
+*::-webkit-input-placeholder {}
+*:-moz-placeholder {}
+*::-moz-placeholder {}
+*:-ms-input-placeholder {}
+
+::-moz-selection {}
+::selection {}
+
+@media (min-width: 400px) {}
+@media (min-width: 550px) {}
+@media (min-width: 750px) {}
+@media (min-width: 1000px) {}
+@media (min-width: 1200px) {}
