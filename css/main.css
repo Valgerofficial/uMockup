@@ -1,0 +1,31 @@
+/******************************
+
+    *   Основные стили
+    *   /css/main.css
+
+******************************/
+
+body {
+	background: rgba(var(--gray-light), 1);
+	min-width: 320px;
+	font: var(--font-family);
+	font-weight: 400;
+	color: rgba(var(--dark), 1);
+	line-height: 1.4;
+	position: relative;
+	overflow-x: hidden;
+}
+
+.umockup {
+    width: 180px;
+    height: 100vh;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.umockup > h1 {
+    font-size: 6em;
+    font-weight: 700;
+}
