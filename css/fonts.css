@@ -1,0 +1,69 @@
+/******************************
+
+    *   Шрифты и иконки
+    *   /css/fonts.css
+
+******************************/
+
+@font-face {
+    font-family: 'Montserrat';
+    src:    url('../fonts/Montserrat/montserrat-thin.woff2') format('woff2'),
+            url('../fonts/Montserrat/montserrat-thin.woff') format('woff');
+    font-display: swap;
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src:    url('../fonts/Montserrat/montserrat-light.woff2') format('woff2'),
+            url('../fonts/Montserrat/montserrat-light.woff') format('woff');
+    font-display: swap;
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src:    url('../fonts/Montserrat/montserrat-regular.woff2') format('woff2'),
+            url('../fonts/Montserrat/montserrat-regular.woff') format('woff');
+    font-display: swap;
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src:    url('../fonts/Montserrat/montserrat-medium.woff2') format('woff2'),
+            url('../fonts/Montserrat/montserrat-medium.woff') format('woff');
+    font-display: swap;
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src:    url('../fonts/Montserrat/montserrat-semibold.woff2') format('woff2'),
+            url('../fonts/Montserrat/montserrat-semibold.woff') format('woff');
+    font-display: swap;
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src:    url('../fonts/Montserrat/montserrat-bold.woff2') format('woff2'),
+            url('../fonts/Montserrat/montserrat-bold.woff') format('woff');
+    font-display: swap;
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../fonts/Montserrat/montserrat-black.woff2') format('woff2'),
+         url('../fonts/Montserrat/montserrat-black.woff') format('woff');
+    font-display: sawp;
+    font-weight: 900;
+    font-style: normal;
+}
