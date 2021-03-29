@@ -30,6 +30,5 @@ uMockup/
 ├── 🗀 pages
 ├── ◫ .browsersync
 ├── ◫ .htaccess
-├── ◫ index.html
-└── ◫ mail.php
+└── ◫ index.html
 ```
