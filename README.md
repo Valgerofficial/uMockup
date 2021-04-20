@@ -14,7 +14,7 @@
 
 # Быстрый старт
 
-- [Скачать с сервера](https://github.com/Valgerofficial/uMockup/raw/master/_apps/uMockup.7z)
+- [Скачать с сервера](https://github.com/Valgerofficial/uMockup/raw/master/_apps/uMockup@1.2.7z)
 - Клонировать репозиторий: `https://github.com/Valgerofficial/umockup.github.io.git`
 
 # Архитектура проекта
